@@ -16,3 +16,12 @@ In Python is Everything is objects
 
 Operators 
 +, -, %, /, *, // = Floor Division (17//5 = 3) 
+** Exponential 
+
+Type Casting = Conversion of one data type into other,Ex:int(a)
+    Explicit 
+    Implicit 
+
+Strings are Immutable 
+using ' ' or " " or """ """ anything works 
+String methods wont change the value of string they will return a new string 

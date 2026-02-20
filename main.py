@@ -30,4 +30,26 @@
 # print(mystr.count('r'))
 # print(mystr.endswith('sh'))
 # print(mystr.find('z')) #Returns -1 No Error
-# print(mystr.index('z')) #Throws Exception if not Found  
+# print(mystr.index('z')) #Throws Exception if not Found
+
+# import time
+
+# mytime = time.strftime('%H:%M:%S')
+# print(mytime)
+
+# if int(time.strftime('%H')) < 12 :
+#     print("Good Morning")
+# elif int(time.strftime('%H')) > 12 and int(time.strftime('%H')) > 15:
+#     print("Good Afternoon")
+# else :
+#     print("Good Night")      
+
+x = 5
+
+match x:
+    case 0:
+        print("x is",x)
+    case 1:
+        print("x is", x)
+    case _ if(x == 5):
+        print("Ohh it is 5 ") 

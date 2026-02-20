@@ -25,3 +25,13 @@ Type Casting = Conversion of one data type into other,Ex:int(a)
 Strings are Immutable 
 using ' ' or " " or """ """ anything works 
 String methods wont change the value of string they will return a new string 
+
+Conditional Statements
+if, if else, if elif else 
+
+Match Case : Switch Case in other language (Added in 3.10 and newer)
+syntax :
+match x:
+    case 0:
+    case 4:
+    case _:(Default)

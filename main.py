@@ -90,3 +90,29 @@
 #     i = i + 1
 #     if i == 1:
 #         break
+
+# def addmyvalues(a,b):
+#     print(a+b)
+
+# def subMyValues(a,b):
+#     pass # just do nothing 
+
+# addmyvalues(3,4)
+
+# def average(*nums):
+#     print(type(nums)) #Takes as tuple
+#     sum = 0 
+#     for i in nums:
+#         sum = sum + i
+
+#     return sum / len(nums)
+
+# c = average(2,3,4)
+# print("Avg = ", c)
+
+# def average(**nums):
+#     print(type(nums)) #Takes as Dict
+#     print(nums['a'], nums['b'], nums['c'])
+
+# average(a = 1, b = 2 , c = 3)
+# average(a = 1, b = 2) # Throws Error when we don't pass c 

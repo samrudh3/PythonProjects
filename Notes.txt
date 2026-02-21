@@ -42,3 +42,6 @@ while is used when we know the condition, when condition is false, interpreter c
 
 Break will be used to come out of the loop 
 continue is used when we have skip a itration in the loop
+
+Functions= block of code performs specific task
+Argumennts : Default Args, keyword args, Variable len args, Required args

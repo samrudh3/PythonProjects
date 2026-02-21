@@ -35,3 +35,10 @@ match x:
     case 0:
     case 4:
     case _:(Default)
+
+Loops : for,while    
+for is used in range 
+while is used when we know the condition, when condition is false, interpreter comes out of the loop, we can use else with while loop  
+
+Break will be used to come out of the loop 
+continue is used when we have skip a itration in the loop

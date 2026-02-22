@@ -184,9 +184,51 @@
 # print(f"The item is {item} and price is {price:.2f}")
 # print(f"The item is {{item}} and price is {{price}}")
 
-def squareNum(n):
-    ''' Takes the number n and return the square of n '''
-    return n * n
+# def squareNum(n):
+#     ''' Takes the number n and return the square of n '''
+#     return n * n
 
-print(squareNum(5))
-print(squareNum.__doc__)
+# print(squareNum(5))
+# print(squareNum.__doc__)
+
+# def fibonacci(n):
+#     if n == 0:
+#         return 0 
+#     if n == 1:
+#         return 1
+    
+#     return fibonacci(n - 1) + fibonacci(n - 2)
+
+# print(fibonacci(5))
+
+# s = {1,2,3,4,5,2,4}
+# print(s)
+
+# s1 = set()
+# print(type(s1))
+
+# dict = {"john" : 36, "Ravi":33, "Neha":26, "Sonal":23}
+# print(dict["john"]) #Throws Error if not Found 
+# print(dict.get("john"))#Returns None if not found 
+# print(dict.keys())
+# print(dict.values())
+
+# for key in dict.keys():
+#     print(dict[key])
+
+
+# print(dict.items())#Prints key value pairs
+
+# print("1st Prg")
+# for i in range(6):
+#     print(i)
+# else:
+#     print("in the else block")    
+
+# print("2nd Prg")
+# for i in range(6):
+#     print(i)
+#     if i == 3:
+#         break #Else will not be executed
+# else:
+#     print("in the else block")        

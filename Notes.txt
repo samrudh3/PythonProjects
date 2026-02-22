@@ -61,3 +61,14 @@ Doc String : are the string literals that appear right after the defination of m
 ''' ''' = > It should be the first line after function body => otherwise the doc sting will be NONE
 
 On import this = > Zen of Python will get print on the terminal
+
+Recursion : is a process of defining something in terms of itself
+
+Sets : Unordered collections of data items, do not contain duplicate elements 
+Methods : s1.union(s2), s1.update(s2),  s1.intersection(s2), s1.intersection_update(s2), symmetric_difference, symmetric_difference_update
+difference, difference_update
+del s1 => deletes the set
+
+Dictionary : Dic are ordered after 3.7 . Dict items are in key value pairs. separated by comma, enclosed with the {}
+
+for and while loop with else

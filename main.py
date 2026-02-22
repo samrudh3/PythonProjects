@@ -116,3 +116,63 @@
 
 # average(a = 1, b = 2 , c = 3)
 # average(a = 1, b = 2) # Throws Error when we don't pass c 
+
+# marks = [1,2,3,4,True, "harry"]
+
+#Slicing
+# print(marks[1:3:2])
+
+# print(marks[-4]) #Equals to len(marks) - 4
+# print(marks[2])
+# if "harry" in marks:
+#     print("Yes")
+# else:
+#     print("No") 
+
+# lst = [i for i in range(10)]
+# print(lst)
+
+# lst1 = [i for i in range(10) if i%2 == 0]
+# print(lst1)
+
+# lst2 = [i*i for i in range(5)]
+# print(lst2)
+
+# l = [2,1]
+# # m = [3,4]
+# m = l
+# k = l + m
+# m.insert(1,5)
+# print(k)
+# print(m)
+# print(l)
+
+# tup = (1,2,3,4,2,4,6,9,3,6,2,5,8,0,4,7,9,4,6,9)
+# # print(tup[1:3])
+
+# res = tup.index(3, 4, 11)#Find 3 from start index to end Index
+# print(res)
+
+question = [
+    {"question": "5 + 3", "answer": 8},
+    {"question": "10 - 4", "answer": 6},
+    {"question": "6 × 7", "answer": 42},
+    {"question": "9 ÷ 3", "answer": 3},
+    {"question": "12 + 15", "answer": 27}
+]
+
+print("Lets play KBC of 5 Question, Each crt question 10rs")
+amt = 0 
+for q in question:
+    print("Q = ", q["question"])
+    ans = int(input("Enter the ans = "))
+    if ans == q["answer"]:
+        amt = amt + 10
+    else:
+        amt = 0
+        break
+
+if amt != 0:
+    print("You have won = ", amt)
+else:
+    print("Soory You lost")    

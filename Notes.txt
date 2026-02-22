@@ -45,3 +45,12 @@ continue is used when we have skip a itration in the loop
 
 Functions= block of code performs specific task
 Argumennts : Default Args, keyword args, Variable len args, Required args
+
+List - collections of any data type
+List Comprehension
+m = l (if m is effected l will also effect)
+
+k = l + m (if m and l are effected, k will not get effected, concatinates the list)
+Syntax : [Expresion(item) for item in range() if(Condition)]
+
+Tuple = Immutable

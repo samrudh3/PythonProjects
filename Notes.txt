@@ -54,3 +54,10 @@ k = l + m (if m and l are effected, k will not get effected, concatinates the li
 Syntax : [Expresion(item) for item in range() if(Condition)]
 
 Tuple = Immutable
+
+F string from 3.6 Version
+
+Doc String : are the string literals that appear right after the defination of method, class,modules
+''' ''' = > It should be the first line after function body => otherwise the doc sting will be NONE
+
+On import this = > Zen of Python will get print on the terminal

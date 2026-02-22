@@ -153,26 +153,40 @@
 # res = tup.index(3, 4, 11)#Find 3 from start index to end Index
 # print(res)
 
-question = [
-    {"question": "5 + 3", "answer": 8},
-    {"question": "10 - 4", "answer": 6},
-    {"question": "6 × 7", "answer": 42},
-    {"question": "9 ÷ 3", "answer": 3},
-    {"question": "12 + 15", "answer": 27}
-]
+# question = [
+#     {"question": "5 + 3", "answer": 8},
+#     {"question": "10 - 4", "answer": 6},
+#     {"question": "6 × 7", "answer": 42},
+#     {"question": "9 ÷ 3", "answer": 3},
+#     {"question": "12 + 15", "answer": 27}
+# ]
 
-print("Lets play KBC of 5 Question, Each crt question 10rs")
-amt = 0 
-for q in question:
-    print("Q = ", q["question"])
-    ans = int(input("Enter the ans = "))
-    if ans == q["answer"]:
-        amt = amt + 10
-    else:
-        amt = 0
-        break
+# print("Lets play KBC of 5 Question, Each crt question 10rs")
+# amt = 0 
+# for q in question:
+#     print("Q = ", q["question"])
+#     ans = int(input("Enter the ans = "))
+#     if ans == q["answer"]:
+#         amt = amt + 10
+#     else:
+#         amt = 0
+#         break
 
-if amt != 0:
-    print("You have won = ", amt)
-else:
-    print("Soory You lost")    
+# if amt != 0:
+#     print("You have won = ", amt)
+# else:
+#     print("Soory You lost")    
+
+# item = "Pen"
+# price = 23.284383982
+
+# print(f"The item is {item} and price is {price}")
+# print(f"The item is {item} and price is {price:.2f}")
+# print(f"The item is {{item}} and price is {{price}}")
+
+def squareNum(n):
+    ''' Takes the number n and return the square of n '''
+    return n * n
+
+print(squareNum(5))
+print(squareNum.__doc__)

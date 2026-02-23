@@ -363,3 +363,46 @@ import os
 # print(os.getcwd())
 # print(os.chdir(f".."))
 # print(os.getcwd())
+
+# x = 5
+
+# def hello():
+#     global x
+#     x = 2
+#     y = 3
+#     print(y)
+
+# hello()
+# print(x)
+# print(y)#Gives Error Bcz we are trying to print local variable
+
+#Reading al File
+# f = open("Sample.txt", 'r')
+# print(f)# Prints the Object
+# text = f.read()
+# print(text)
+# f.close()
+
+#Writing a file/Append
+# f = open('Sample2.txt','w') 
+# f.write("Hello Machii!")
+# f.close()
+
+# with open('Sample.txt','a') as f:
+#     f.write("Long time no see Machi")
+
+# with open('Sample.txt', 'r') as f :
+#     mystr = f.readlines()
+#     print(mystr)
+
+# f = open("Sample.txt", 'r')
+# while True:
+#     line = f.readlines()
+#     if not line:
+#         break
+#     print(line)
+
+# f = open("Sample.txt", 'a')
+# l1 = [" wegdjhed \n", "dgwdjhjkjd\n", "wwjdhqwjhd\n"]
+# f.writelines()
+# f.close()

@@ -96,3 +96,19 @@ if __name__ == "__main__" = idiom or common pattern to determine whether the scr
 even just importing the module can execute the methods, if condition is not added
 
 OS Module => Can be used to perform the opertaion in the bulk, to rename, create, delete etc
+We can also use it for searching
+
+Local variable and Global Variable: Variable are the named location in memory that stores values 
+
+Files IO : read(r) = open in readonly mode, if not found throws error. r mode =is default 
+write(w) = open in write mode, creates file fi doesn't exists
+append(a) = add the content to the file
+create(x) = this creates a files gives error if already exists
+text(t) = 'rt' normal we are just defining as textfiles
+binary(b) = 'rb' reads binary files like jpg,png,pdf
+
+Using 'with' keyword not need to close the file
+read() = reads the entire file in single string -> return str
+readlines() = reads line by line -> return list
+write() = writes single string-> takes only str # Add \n
+writelines() = writes iterable like list # Add \n 

@@ -231,4 +231,70 @@
 #     if i == 3:
 #         break #Else will not be executed
 # else:
-#     print("in the else block")        
+#     print("in the else block")      
+
+# l1 = [1,2,3,4]
+
+# try:
+#     print(l1[6])
+# except:
+#     print("Inavalid Index")    
+
+# def myFuc(n):
+#     try:
+#         print(l1[n])
+#         return 1 #Found
+#     except Exception as e:
+#         print("Inavalid Index", e)  
+#         return 0 #Not found  
+#     finally:
+#         print("I always executes")
+# x = myFuc(5)
+# print(x)   
+
+# x = int(input("Enter the Number btw 0 and 5 : "))
+
+# if x > 5 or x < 0:
+#     raise ValueError("Enter the valid Nummber")
+
+# mystr = input("Enter the message to Encode, separated by Space :")
+
+# l1 = list(mystr.split(" "))
+
+# def encodeMsg(l1):
+#     mylist = []
+#     for i in l1:
+#         if(len(i) >= 3):
+#             i = i[1:] + i[0]
+#             newstr =  ("xyz" + i + "xyz")
+#             mylist.append(newstr)
+#         else:
+#             newstr = (i[::-1])
+#             mylist.append(newstr)
+#     print("After encoding = ", mylist)  
+#     decodeMsg(mylist) 
+
+# def decodeMsg(newList):
+#     dlist = []
+#     msg= ""
+#     for item in newList:
+#         if len(item) >= 6 :
+#             if item.startswith("xyz") and item.endswith("xyz"):
+#                 item = item[3:-3]
+#                 item = item[-1] + item[0:-1]
+#                 dlist.append(item)
+#         else:
+#             newstr = (item[::-1])
+#             dlist.append(newstr)
+
+#     for s in dlist:
+#         msg = msg + " " + s
+
+#     print("After Decoding the msg = ",msg)    
+                
+# encodeMsg(l1)
+
+# import random
+# import string
+# rstr = "".join(random.choices(string.ascii_lowercase, k = 3)) #To Get the random Character
+# print(rstr)

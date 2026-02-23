@@ -298,3 +298,20 @@
 # import string
 # rstr = "".join(random.choices(string.ascii_lowercase, k = 3)) #To Get the random Character
 # print(rstr)
+
+# a = 10
+# b = 54
+# print("A") if a > b else print("=") if a == b else print("B")
+
+# l1 = [2,34,5,25,56,29,46,7,75]
+# index = 0
+# for item in l1:
+#     print(item)
+#     if index == 4:
+#         print("Heighest Marks!")
+#     index += 1   
+
+# for index, item in enumerate(l1):
+#     print(item)
+#     if index == 4:
+#         print("heighest marks")

@@ -76,3 +76,7 @@ for and while loop with else
 Exception Handling : process of handling the unwanted and unexpected events
 
 We can throw the custom Errors using the keyword raise
+
+Short Hand : if else can be Writte in 1 line 
+
+Enumerate : is a built in function that allows to loop through the Sequence of elements, along with the index and value  

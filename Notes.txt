@@ -80,3 +80,19 @@ We can throw the custom Errors using the keyword raise
 Short Hand : if else can be Writte in 1 line 
 
 Enumerate : is a built in function that allows to loop through the Sequence of elements, along with the index and value  
+
+Virtual Environment : python -m venv <NAME>
+tool used to isolate the specific environment on single machine, allowing us to work in different project, without any conflicts 
+To activate the virtual environment : source <NAME>\Scripts\Activate.ps1(Powershell), Activate.bat(CMD)
+To Deactivate just enter : deactivate
+
+pip freeze => is CMD will give all the packages intalled 
+pip freeze > requirement.txt
+if above file is given to someone, he can run pip install -r requirement.txt 
+
+import => is loading the code from python module into the current script 
+
+if __name__ == "__main__" = idiom or common pattern to determine whether the script is being called directly or being imported
+even just importing the module can execute the methods, if condition is not added
+
+OS Module => Can be used to perform the opertaion in the bulk, to rename, create, delete etc

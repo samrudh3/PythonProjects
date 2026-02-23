@@ -315,3 +315,51 @@
 #     print(item)
 #     if index == 4:
 #         print("heighest marks")
+
+# import pandas as pd
+# print(pd.__version__)
+
+# import math
+
+# print(math.sqrt(9))
+
+# from math import sqrt, pi
+# from math import *
+# from math import sqrt as s,pi
+# import math as m
+# print(pi)
+# print(dir(m))
+
+# import myModule
+
+# myModule.printMsg()
+
+# l1 = [1,2,34,5,6]
+# l2 = []
+# for i in l1:
+#     if i == 2 or 5:
+#         l2.append(i)
+
+# print(l2)      
+
+import os
+
+# if not os.path.exists("DATA"):
+#     os.mkdir("DATA")
+
+# for i in range(0,5):
+#     os.mkdir(f"DATA/Day {i} Notes")
+
+# for i in range(0,5):
+#     os.rename(f"DATA/Day {i} Notes",f"DATA/Day {i + 1}")   
+
+# folders = os.listdir("DATA") 
+# # print(folders)
+# for folder in folders:
+#     print(os.listdir(f"data/{folder}"))
+# cmd = 'date'
+# print(os.system(cmd))
+
+# print(os.getcwd())
+# print(os.chdir(f".."))
+# print(os.getcwd())

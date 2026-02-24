@@ -112,3 +112,13 @@ read() = reads the entire file in single string -> return str
 readlines() = reads line by line -> return list
 write() = writes single string-> takes only str # Add \n
 writelines() = writes iterable like list # Add \n 
+
+File Handlings(seek() and tell()) => used to work with a file objects and their position witin a file
+These functions are part of built-in module
+seek() => is a function alows to move the current position within file to a specific point, position is specified in bytes 
+tell() => returns the cuurent postion within a file in bytes 
+truncate() => if we want to truncate the file, f.truncate(5)/ Writes/Appends only 5 bytes 
+
+Lambda Functions is a small anonymous function without name. it is written using lambda keyword
+Syntax : lambda args : expression
+we can pass the lambda function as argument for another function

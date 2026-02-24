@@ -406,3 +406,14 @@ import os
 # l1 = [" wegdjhed \n", "dgwdjhjkjd\n", "wwjdhqwjhd\n"]
 # f.writelines()
 # f.close()
+
+# sqrt = lambda x : x * x
+# print(sqrt(5))
+
+# someValue = lambda x, y, z : (x + y+ z)/3
+# print(someValue(2,3,4))
+
+# def apply(fx, value ):
+#     return fx(value) + value
+
+# print(apply(lambda x: x + x, 2))

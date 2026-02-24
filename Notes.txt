@@ -126,3 +126,8 @@ we can pass the lambda function as argument for another function
 Map Filter and Reduce are the built-in function that allow you to apply on the sequence of elements and return new sequence of elements.
 these are called higher order functions, as they take functions as arguments 
 we need to import reduce from functools, and we need convert the map and Filter ouptut to list
+
+import random
+random.randint(0,2)= random number from 0 to 2
+random.choice[1,2,3] = btw thw specified elements 
+random.choices(string.ascii_lowercase, k = 3) #To Get the random Character

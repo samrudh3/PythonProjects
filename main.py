@@ -438,3 +438,26 @@ import os
 #Mutable object like list will returm false in "a is b"
 # print ( a is b) #exact location of object in memory
 # print ( a == b) #value
+
+
+# import random
+
+# result_matrix = [
+#     [0, -1, 1],   
+#     [1, 0, -1],   
+#     [-1, 1, 0]    
+# ]
+
+# print("Welcome to Rock Paper and Scissor!\n")
+# playerValue = int(input("Enter 0:Rock, 1:Paper, 2: Scissor\n"))
+# computerValue = int(random.choice([0, 1, 2]))
+# print(random.randint(0,2)) 
+# print(f"Computer Value {computerValue}")
+# res = result_matrix[playerValue][computerValue]
+
+# if res == 1:
+#     print("Player Wins")
+# elif res == -1:
+#     print("Computer Wins")
+# else :
+#     print("Its a Draw")        

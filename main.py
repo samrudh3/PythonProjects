@@ -417,3 +417,24 @@ import os
 #     return fx(value) + value
 
 # print(apply(lambda x: x + x, 2))
+
+# l1 = [1,2,3,4,5]
+
+# #map
+# sumValue = list(map(lambda x: x + x, l1))
+# print(sumValue)
+
+# filterValue = list(filter(lambda x: x > 2, l1))
+# print(filterValue)
+
+# from functools import reduce
+
+# reduceValue = reduce(lambda x,y : x + y, l1)
+# print(reduceValue)
+
+# a = 3
+# b = "3"
+#Any immutabel Data Types like, int(const), String , tuple, None will return True for "is" Python internally will make it single memory location 
+#Mutable object like list will returm false in "a is b"
+# print ( a is b) #exact location of object in memory
+# print ( a == b) #value

@@ -122,3 +122,7 @@ truncate() => if we want to truncate the file, f.truncate(5)/ Writes/Appends onl
 Lambda Functions is a small anonymous function without name. it is written using lambda keyword
 Syntax : lambda args : expression
 we can pass the lambda function as argument for another function
+
+Map Filter and Reduce are the built-in function that allow you to apply on the sequence of elements and return new sequence of elements.
+these are called higher order functions, as they take functions as arguments 
+we need to import reduce from functools, and we need convert the map and Filter ouptut to list

@@ -9,3 +9,12 @@ Ploymorphism => a core concept where single in entity/method can be represented 
 
 Class and Object : A class is a blueprint or a template for creating the object 
 self = refernce to the current instance of the class, and it is used to access the variable of that class 
+
+Constructor : is a unique function that gets called automatically, when an object is created 
+main point of Constructor is to intialize or assign the values to the data members of the class 
+we have a keyword __init__() => dunder method 
+when object is created, self is automatically passed as first agrument 
+Constructor always return NONE
+Default constructor will have only one agrument self
+
+Decorators are powerfull and flexible featurein python that can add the functionality to a functions without modiying the source code

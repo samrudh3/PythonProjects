@@ -20,16 +20,70 @@
 # b = Person("Diksha", "HR")
 # b.info()
 
-def greet(fx):
-    def mfx(*args):
-        print("Hello")
-        fx(*args)
-        print("Bye")
-    return mfx
+# def greet(fx):
+#     def mfx(*args):
+#         print("Hello")
+#         fx(*args)
+#         print("Bye")
+#     return mfx
 
-@greet
-def add(a,b):
-    print(a+b)
+# @greet
+# def add(a,b):
+#     print(a+b)
 
-add(2,3)
+# add(2,3)
 # greet(add)(1,2) #This also gives same output, need to remove @greet 
+
+# class Myclass:
+#     def __init__(self, value):
+#         self._value = value
+
+#     @property
+#     def myValue(self):
+#         return self._value    
+    
+#     @myValue.setter
+#     def myValue(self, value):
+#         self._value = value
+
+#     def show(self):
+#         print(f"Value is {self._value}")   
+
+# a = Myclass(10)         
+# print(a.myValue)
+# a.myValue = 50
+# print(a.myValue)
+
+# class Employee:
+#     def __init__(self, name, id):
+#         self.name = name
+#         self.id = id
+
+#     def printName(self):
+#         print(self.name)
+
+#     def printId(self):
+#         print(self.id)
+
+# class Person(Employee):
+#     def show(self):
+#         print("Im a Human")
+
+# a = Employee("Harry", 18)
+# a.printName()
+# a.printId()
+
+# b = Person("Divya", 38)
+# b.printId()
+# b.printName()
+# b.show()
+
+class Myclass:
+    def __init__(self, name, id):
+        self._Name = name 
+        self.__id = id
+
+obj = Myclass("Harry", 10)
+print(obj._Name)
+# print(obj.__id)#Gives Error 
+print(obj._Myclass__id)#Accessing indirectlyy (name mangling)

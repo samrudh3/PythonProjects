@@ -18,3 +18,17 @@ Constructor always return NONE
 Default constructor will have only one agrument self
 
 Decorators are powerfull and flexible featurein python that can add the functionality to a functions without modiying the source code
+
+Getter and setter :
+getter  in python are methods , used to access the values of an object properties, which is defined with @decorator
+Getters are convinient way to access the object properties, while keeping the internal representation of the propery hidden (encapsulation)
+
+Inheritance: acquring the properties and method of one class to another class
+Types: Single, Multiple, Multi-Level , Hierarchical, Hybrid
+
+Access Modifiers in python : Access specifiers/Modifiers are used to limit the access of property/method outside the class
+Public,private, protected 
+Public : All the variables and methods in python are pubic by default, any variable followed by self keyword is public
+private : in python there is not such things, but we can indicate the variable by "__"  Ex: __name
+    Called Name Mangling is a technique to protect the private variable to be ovewritten by subclass
+protected : can be access by class and its subclass, name covention is followed by "_" Ex: _name    

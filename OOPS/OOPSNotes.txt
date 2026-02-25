@@ -1,0 +1,11 @@
+OOPs
+Mainly 2 Types of Programing 
+Procedural Programming 
+Object-oriented Programming => uses classes and Objects represent real world entities
+Key feature is of OOP is 
+Encapsulation, means internal state of the object is hidden, and can be accesed and modified through object methods
+Inheritance => allows new classes to inherit the properties and methods of existing class 
+Ploymorphism => a core concept where single in entity/method can be represented in multiple form
+
+Class and Object : A class is a blueprint or a template for creating the object 
+self = refernce to the current instance of the class, and it is used to access the variable of that class 

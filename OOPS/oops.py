@@ -148,3 +148,19 @@
 # obj1 = Company("Axar")
 # obj1.CompanyName = "ABC"
 # obj1.printDetais()
+
+# import os
+# class ClearCluster:
+#     def __init__(self):
+#         pass
+    
+#     def renameFiles(self, folderPath, ext):
+#         files_found = os.listdir(folderPath)
+
+#         for i, item in enumerate(files_found):
+#             if item.endswith(".png"):
+#                 print(f"Item = {item} and i = {i}")
+#                 os.rename(f"{folderPath}/{item}", f"{folderPath}{i}.png")
+
+# obj = ClearCluster()
+# obj.renameFiles("DATA", ".png")

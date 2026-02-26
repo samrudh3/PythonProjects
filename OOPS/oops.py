@@ -78,12 +78,45 @@
 # b.printName()
 # b.show()
 
-class Myclass:
-    def __init__(self, name, id):
-        self._Name = name 
-        self.__id = id
+# class Myclass:
+#     def __init__(self, name, id):
+#         self._Name = name 
+#         self.__id = id
 
-obj = Myclass("Harry", 10)
-print(obj._Name)
-# print(obj.__id)#Gives Error 
-print(obj._Myclass__id)#Accessing indirectlyy (name mangling)
+# obj = Myclass("Harry", 10)
+# print(obj._Name)
+# # print(obj.__id)#Gives Error 
+# print(obj._Myclass__id)#Accessing indirectlyy (name mangling)
+
+# class Library :
+#     def __init__(self, n , l):
+#         self.no_Of_books = n
+#         self.books = l
+
+#     def addbook(self, item):
+#         self.books.append(item)
+#         self.no_Of_books = len(self.books)
+
+#     def printbook(self):
+#         print(f"The {n} Books are")
+#         for item in self.books:
+#             print(item)
+
+#     def getbookCount(self):
+#         return len(self.books)
+
+#     def checkLibrary(self):
+#         if self.no_Of_books == len(self.books):
+#             print("Good Management")
+#         else :
+#             print("Something is wrong in this")     
+
+
+# n = 2
+# l = ["book1", "book2"]
+# a = Library(n, l)
+# a.printbook()
+# a.addbook("Book3")
+# a.printbook()
+# print(a.getbookCount())
+# a.checkLibrary()

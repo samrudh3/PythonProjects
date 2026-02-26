@@ -31,4 +31,9 @@ Public,private, protected
 Public : All the variables and methods in python are pubic by default, any variable followed by self keyword is public
 private : in python there is not such things, but we can indicate the variable by "__"  Ex: __name
     Called Name Mangling is a technique to protect the private variable to be ovewritten by subclass
-protected : can be access by class and its subclass, name covention is followed by "_" Ex: _name    
+protected : can be access by class and its subclass, name covention is followed by "_" Ex: _name  
+
+
+Static Methods : methods that are belongs to class rather than instance of a class.
+they are defined using @decorator, they can be called using ClassName,  
+Static method won't take self as agrument, other methods will

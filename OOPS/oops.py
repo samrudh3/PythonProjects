@@ -120,3 +120,15 @@
 # a.printbook()
 # print(a.getbookCount())
 # a.checkLibrary()
+
+# class Example :
+#     def __init__(self):
+#         pass
+
+#     @staticmethod
+#     def Add(a,b):
+#         print(f"Sum of {a} and {b} is {a + b}")    
+
+# obj = Example()
+# obj.Add(2,3)
+# Example.Add(5,5)         

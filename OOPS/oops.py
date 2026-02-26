@@ -132,3 +132,19 @@
 # obj = Example()
 # obj.Add(2,3)
 # Example.Add(5,5)         
+
+# class Company:
+#     CompanyName = "XYZ"
+#     def __init__(self, name):
+#         self.name = name
+
+#     def printDetais(self):
+#         print(f"{self.name} Works at {self.CompanyName}")    
+
+
+# obj = Company("Harry")
+# obj.printDetais()
+
+# obj1 = Company("Axar")
+# obj1.CompanyName = "ABC"
+# obj1.printDetais()

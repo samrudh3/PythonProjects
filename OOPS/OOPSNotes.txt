@@ -37,3 +37,7 @@ protected : can be access by class and its subclass, name covention is followed 
 Static Methods : methods that are belongs to class rather than instance of a class.
 they are defined using @decorator, they can be called using ClassName,  
 Static method won't take self as agrument, other methods will
+
+Instance Vs Class Variable
+Class variables are defined at the class Level and shared accross all the instances of the class, defined outside the method
+Instance variable inside the constructor, prefer will always be instance variable, if doen't found same variable name will be searched in class variable

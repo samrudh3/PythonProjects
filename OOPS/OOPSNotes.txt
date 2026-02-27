@@ -47,3 +47,6 @@ Instance variable inside the constructor, prefer will always be instance variabl
 Class Method : 
 Method with decorator called @classmethod, the first instance this method would be class, not  instance of class(self)
 This methods can be used to change the value of class Variable
+
+Class Methods as Alternative constructor
+we use class methods to initalize the variable, using the different formate

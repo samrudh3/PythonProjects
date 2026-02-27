@@ -166,21 +166,35 @@
 # obj.renameFiles("DATA", ".png")
 
 
-class Example :
-    companyName = "ABC"
+# class Example :
+#     companyName = "ABC"
 
-    def __init__(self):
-        pass
+#     def __init__(self):
+#         pass
 
-    @classmethod
-    def changeName(cls,name):
-        cls.companyName = name   
+#     @classmethod
+#     def changeName(cls,name):
+#         cls.companyName = name   
 
-    def showName(self):
-        print("Company Name :", self.companyName)    
+#     def showName(self):
+#         print("Company Name :", self.companyName)    
 
-e = Example()
-e.showName()
-e.changeName("XYZ")
-e.showName()
-print(Example.companyName)
+# e = Example()
+# e.showName()
+# e.changeName("XYZ")
+# e.showName()
+# print(Example.companyName)
+
+
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#         print(f"{self.name} and {self.age}")
+
+#     @classmethod
+#     def fromStr(cls, string):
+#         return cls(string.split("-")[0], string.split("-")[1])
+
+# p = Person("Harry",30 )  
+# p1 = Person.fromStr("john-26")

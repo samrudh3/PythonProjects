@@ -8,6 +8,7 @@ Inheritance => allows new classes to inherit the properties and methods of exist
 Ploymorphism => a core concept where single in entity/method can be represented in multiple form
 
 Class and Object : A class is a blueprint or a template for creating the object 
+and theya are used to build the custom data types, which can stoore the data and define the functions  
 self = refernce to the current instance of the class, and it is used to access the variable of that class 
 
 Constructor : is a unique function that gets called automatically, when an object is created 
@@ -41,3 +42,8 @@ Static method won't take self as agrument, other methods will
 Instance Vs Class Variable
 Class variables are defined at the class Level and shared accross all the instances of the class, defined outside the method
 Instance variable inside the constructor, prefer will always be instance variable, if doen't found same variable name will be searched in class variable
+
+
+Class Method : 
+Method with decorator called @classmethod, the first instance this method would be class, not  instance of class(self)
+This methods can be used to change the value of class Variable

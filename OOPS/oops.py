@@ -164,3 +164,23 @@
 
 # obj = ClearCluster()
 # obj.renameFiles("DATA", ".png")
+
+
+class Example :
+    companyName = "ABC"
+
+    def __init__(self):
+        pass
+
+    @classmethod
+    def changeName(cls,name):
+        cls.companyName = name   
+
+    def showName(self):
+        print("Company Name :", self.companyName)    
+
+e = Example()
+e.showName()
+e.changeName("XYZ")
+e.showName()
+print(Example.companyName)

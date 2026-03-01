@@ -64,3 +64,8 @@ Magic/Dunder Methods are the sepcial methods which will help us to perform do so
 __str__, __repr__, __call__
 
 Method Overriding = Changing the behaviour of parent class method in child class
+
+Inheritance
+Single Inheritance= Is a Type of Inheritance where class inherits properties and behaviour from one parent class
+Multiple Inheritance = Is a Type of Inheritance, where class inherits the attributes and methods from the multiple parent class
+    MRO = Method Resolution Order

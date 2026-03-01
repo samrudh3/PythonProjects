@@ -269,22 +269,49 @@
 # c = circle(3,4)
 # print(c.area())
 
-class Vector:
-    def __init__(self, i, j , k):
-        self.i = i
-        self.j = j
-        self.k = k
+# class Vector:
+#     def __init__(self, i, j , k):
+#         self.i = i
+#         self.j = j
+#         self.k = k
 
-    def __add__(self, other):
-        return Vector(self.i + other.i , self.j + other.j , self.k + self.k)    
+#     def __add__(self, other):
+#         return Vector(self.i + other.i , self.j + other.j , self.k + self.k)    
     
-    def __str__(self):
-        return f"{self.i}i + {self.j}j + {self.k}k"
+#     def __str__(self):
+#         return f"{self.i}i + {self.j}j + {self.k}k"
     
-V1 = Vector(3,4,5)
-print(str(V1))
+# V1 = Vector(3,4,5)
+# print(str(V1))
 
-V2 = Vector(4,5,6)
-print(str(V2))
+# V2 = Vector(4,5,6)
+# print(str(V2))
 
-print( V1 + V2)
+# print( V1 + V2)
+
+# class Person :
+#     def __init__(self, name):
+#         self.name = name
+
+#     def show(self):
+#         print(f"The Name is  {self.name}")    
+
+# class Dancer :
+#     def __init__(self, dance):
+#         self.dance = dance
+
+#     def show(self):
+#         print(f"The Dance is  {self.dance}") 
+
+# class Example(Person, Dancer):
+#     def __init__(self, name, dance):
+#         self.name = name
+#         self.dance = dance
+
+# ex = Example("Shreya", "Katak")
+# print(ex.name)
+# print(ex.dance)
+# ex.show()
+
+# print(Example.mro())
+        

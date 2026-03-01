@@ -199,15 +199,33 @@
 # p = Person("Harry",30 )  
 # p1 = Person.fromStr("john-26")
 
-x = [1,2,3]
-print(dir(x))
+# x = [1,2,3]
+# print(dir(x))
 
-class Example:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Example:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-p = Example("Harry",24)
-print(p.__dir__)        
+# p = Example("Harry",24)
+# print(p.__dir__)        
 
-print(help(str))
+# print(help(str))
+
+# class Example:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def show():
+#         print("This is Parent class")    
+
+# class child(Example):
+#     def __init__(self, name, age):
+#         super().__init__(name, age)
+#     def show():
+#         print("The child Method")
+#         super().show()
+
+# p = child("Harry",24)
+# print(p.name)
+# print(p.age)

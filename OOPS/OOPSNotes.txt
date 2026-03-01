@@ -62,3 +62,5 @@ we can use to called the constructor and methods
 
 Magic/Dunder Methods are the sepcial methods which will help us to perform do something
 __str__, __repr__, __call__
+
+Method Overriding = Changing the behaviour of parent class method in child class

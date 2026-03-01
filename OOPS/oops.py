@@ -229,3 +229,21 @@
 # p = child("Harry",24)
 # print(p.name)
 # print(p.age)
+
+# class Exmaple:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def __str__(self):
+#         return f"The Name is {self.name} str"
+
+#     def __repr__(self):
+#             return f"The Name is {self.name} repr"
+    
+#     def __call__(self, *args, **kwds):
+#          print("Im the Call method")
+
+# ex = Exmaple("Haryy")
+# print(str(ex))
+# print(repr(ex))
+# ex()         

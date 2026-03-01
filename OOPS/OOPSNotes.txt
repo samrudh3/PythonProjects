@@ -59,3 +59,6 @@ help() => function is used to get the help documentation for an object, includin
 
 super keyword = use to refer the parent class
 we can use to called the constructor and methods 
+
+Magic/Dunder Methods are the sepcial methods which will help us to perform do something
+__str__, __repr__, __call__

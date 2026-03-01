@@ -50,3 +50,9 @@ This methods can be used to change the value of class Variable
 
 Class Methods as Alternative constructor
 we use class methods to initalize the variable, using the different formate
+
+Object Introspection : helps in resolve the various function and excute the code 
+dir() and help() methods/ __dict__() attribute 
+dir() => returns the list of all the attributes and methods(including dunder methods) available for an object
+__dict__ => attributes returns a dictionary representation of an objects attributes 
+help() => function is used to get the help documentation for an object, including the description of its attributes and methods 

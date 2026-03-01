@@ -198,3 +198,16 @@
 
 # p = Person("Harry",30 )  
 # p1 = Person.fromStr("john-26")
+
+x = [1,2,3]
+print(dir(x))
+
+class Example:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p = Example("Harry",24)
+print(p.__dir__)        
+
+print(help(str))

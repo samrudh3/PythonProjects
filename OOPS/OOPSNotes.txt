@@ -69,3 +69,6 @@ Inheritance
 Single Inheritance= Is a Type of Inheritance where class inherits properties and behaviour from one parent class
 Multiple Inheritance = Is a Type of Inheritance, where class inherits the attributes and methods from the multiple parent class
     MRO = Method Resolution Order
+Multi Level Inheritance : is a Type od inheritance where derived class inherits from another derived class.    
+Hybrid Inheritance = Combination of 2 or more inheritance is called Hybrid Inheritance
+Hierarchical Inheritance = is type of Inheritance, where multiple subclass inherits from single parent class 

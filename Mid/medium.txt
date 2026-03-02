@@ -1,0 +1,4 @@
+Time Modules
+init = time.time() returns the spoc timing from the 1970
+time.sleep(3) waits for 3 seconds 
+time.strftime() = formates the time value as a string based on the specific format

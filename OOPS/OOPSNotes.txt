@@ -72,3 +72,5 @@ Multiple Inheritance = Is a Type of Inheritance, where class inherits the attrib
 Multi Level Inheritance : is a Type od inheritance where derived class inherits from another derived class.    
 Hybrid Inheritance = Combination of 2 or more inheritance is called Hybrid Inheritance
 Hierarchical Inheritance = is type of Inheritance, where multiple subclass inherits from single parent class 
+
+pyttsx3 can be used to make text to speech in the windows 

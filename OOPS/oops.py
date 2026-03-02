@@ -328,3 +328,21 @@
 
 # merger.write("Merged.pdf")
 # merger.close()    
+
+# import pyttsx3
+
+# engine = pyttsx3.init()
+# # engine.setProperty('rate', 170)     # Speed of speech (default ~200)
+# engine.setProperty('volume', 1.0)   # Volume (0.0 to 1.0)
+
+# mylist = ["Samrudh", "Harry", "Priyanka", "Atul", "Ananya"]
+
+# for person in mylist:
+#     print(person)
+#     engine.say(f"Hello {person}, Shoutout to you.")
+
+# engine.runAndWait()
+
+
+
+

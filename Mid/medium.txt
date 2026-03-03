@@ -23,3 +23,7 @@ of the function until next value is Requested
 Benifits of Generator : Helps in generate the value on the fly
 helps in memory friendly manner
 
+Function Caching = using functools
+memoize = To Store so that it can be subsequently retrived without repeatative the computation
+once prg execution is completed lru_cache is gone 
+only use when we know set of fuctions has to be excuted every time and output remains same

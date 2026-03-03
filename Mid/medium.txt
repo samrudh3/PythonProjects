@@ -14,3 +14,5 @@ we can use in while loop and if statement
 
 Request Module
 bs4 Module is called BeautifulSoup, which is used to scraping the web
+
+News API key = bdd42baecc624498acebb37b21fbdbaf

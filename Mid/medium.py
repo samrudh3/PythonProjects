@@ -75,3 +75,18 @@
 # response = requests.post(url, headers=headers, json=data)
 
 # print(response.text)
+
+# import requests
+# import json
+# query = input("What type of news are you interested in ? ")
+
+# url = "https://newsapi.org/v2/everything?q={query}&from=2026-02-03&sortBy=publishedAt&apiKey=bdd42baecc624498acebb37b21fbdbaf"
+# r = requests.get(url)
+
+# news = json.loads(r.text)
+# # print(news, type(news))
+
+# for article in news['articles']:
+#     print("Title :", article["title"] )
+#     print("Description", article["description"])
+#     print("--------------------------------------------------")

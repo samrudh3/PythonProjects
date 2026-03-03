@@ -39,3 +39,11 @@
 #     foods.append(food)
 
 # print(foods)
+
+# import shutil
+
+# shutil.copy("medium.py", "medium2.py") #Copies the file
+# shutil.copy2("medium.py", "medium2.py") #Copies the meta data also (when file was creted etc)
+# shutil.copytree("src", "dst") #recursilvely copeis the directory from src to dst
+# shutil.move("src", "dst") # Moves the file from src to dst (can we used to rename also)
+# shutil.rmtree("path")# Helps to remove the dir(can't delete file)

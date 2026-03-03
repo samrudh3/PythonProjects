@@ -27,3 +27,8 @@ Function Caching = using functools
 memoize = To Store so that it can be subsequently retrived without repeatative the computation
 once prg execution is completed lru_cache is gone 
 only use when we know set of fuctions has to be excuted every time and output remains same
+
+Cross Platform Notification we can use desktop_notifier 
+we can use asyncio library write the code asynchrnous
+Wait for something (like time, network, file, notification)
+Without freezing the entire program

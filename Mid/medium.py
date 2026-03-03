@@ -102,19 +102,35 @@
 # for i in gen:
 #     print(i)
 
-from functools import lru_cache
-import time
+# from functools import lru_cache
+# import time
 
-@lru_cache(maxsize=None)
-def fx(n):
-    time.sleep(5)
-    return n * n
+# @lru_cache(maxsize=None)
+# def fx(n):
+#     time.sleep(5)
+#     return n * n
 
 
-print(fx(2))
-print(fx(3))
-print(fx(4))
-print(fx(2))
-print(fx(3))
-print(fx(4))
-print(fx(5))
+# print(fx(2))
+# print(fx(3))
+# print(fx(4))
+# print(fx(2))
+# print(fx(3))
+# print(fx(4))
+# print(fx(5))
+
+
+# import asyncio
+# from desktop_notifier import DesktopNotifier
+
+# notifier = DesktopNotifier()
+
+# async def main():
+#     while True:
+#         await notifier.send(
+#             title="💧 Water Reminder",
+#             message="Time to drink water!"
+#         )
+#         await asyncio.sleep(2 * 60 * 60)  # 2 hours
+
+# asyncio.run(main())

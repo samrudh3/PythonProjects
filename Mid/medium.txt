@@ -2,3 +2,12 @@ Time Modules
 init = time.time() returns the spoc timing from the 1970
 time.sleep(3) waits for 3 seconds 
 time.strftime() = formates the time value as a string based on the specific format
+
+
+Command Line Utilities 
+are the programs that can run on the CMD or terminal, they are part of many development workflow
+In Python we can use argparse  
+
+Walrus Operator (It is added from python 3.8 onwards)
+Helps to assign value to the variable with a expression
+we can use in while loop and if statement

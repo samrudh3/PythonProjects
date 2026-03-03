@@ -24,3 +24,18 @@
 # formattedTime = time.strftime("%D-%M-%Y %H:%M:%S", t)
 
 # print(formattedTime)
+
+# a = True
+# print(a:=False)
+
+# l1 = [1,2,3,4,5]
+
+# while (n := len(l1)) > 0:
+#     print(l1.pop())
+
+# foods = list()
+
+# while (food := input("Enter the Food you Like")) != "quit":
+#     foods.append(food)
+
+# print(foods)

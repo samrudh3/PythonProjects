@@ -16,3 +16,10 @@ Request Module
 bs4 Module is called BeautifulSoup, which is used to scraping the web
 
 News API key = bdd42baecc624498acebb37b21fbdbaf
+
+Generators = are special type of function that allow you to create the iterable sequence of values 
+we can create a generator using yield statement in the function, yield statement return the a value from the generator and suspends the execution 
+of the function until next value is Requested
+Benifits of Generator : Helps in generate the value on the fly
+helps in memory friendly manner
+

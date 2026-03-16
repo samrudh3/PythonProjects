@@ -46,3 +46,7 @@ $   Matches the end
 {}  Indicate number of occurrences of a preceding RE 
     to match.
 ()  Enclose a group of REs
+
+Async IO : Asynchronous I/O, or async for short, is a programming pattern that allows for high-performance I/O operations
+in a concurrent and non-blocking manner. In Python, async programming is achieved through the use of the asyncio module
+and asynchronous function

@@ -134,3 +134,22 @@
 #         await asyncio.sleep(2 * 60 * 60)  # 2 hours
 
 # asyncio.run(main())
+
+import asyncio
+
+async def myfunc():
+    await asyncio.sleep(1)
+    return "Hello"
+
+async def mainfuc():
+    # result =  await myfunc()
+    # print(result)
+    L = await asyncio.gather(
+        myfunc(),
+        myfunc(),
+        myfunc(),
+    )
+    print(L)
+
+asyncio.run(mainfuc())
+

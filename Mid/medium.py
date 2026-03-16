@@ -135,21 +135,52 @@
 
 # asyncio.run(main())
 
-import asyncio
+# import asyncio
 
-async def myfunc():
-    await asyncio.sleep(1)
-    return "Hello"
+# async def myfunc():
+#     await asyncio.sleep(1)
+#     return "Hello"
 
-async def mainfuc():
-    # result =  await myfunc()
-    # print(result)
-    L = await asyncio.gather(
-        myfunc(),
-        myfunc(),
-        myfunc(),
-    )
-    print(L)
+# async def mainfuc():
+#     # result =  await myfunc()
+#     # print(result)
+#     L = await asyncio.gather(
+#         myfunc(),
+#         myfunc(),
+#         myfunc(),
+#     )
+#     print(L)
 
-asyncio.run(mainfuc())
+# asyncio.run(mainfuc())
 
+import threading
+import time
+
+def func(sec):
+    print(f"Sleeping for {sec}")
+    time.sleep(sec)
+
+time1 = time.perf_counter()
+
+#Normal Execution 
+# func(4)  
+# func(3)
+# func(2)
+
+#Using Thread 
+# t1 = threading.Thread(target=func, args=[4])
+# t2 = threading.Thread(target=func, args=[3])
+# t3 = threading.Thread(target=func, args=[2])
+
+# t1.start()
+# t2.start()
+# t3.start()
+
+# t1.join()
+# t2.join()
+# t3.join()
+
+# time2 = time.perf_counter()
+
+# print(time2 - time1)
+    

@@ -153,14 +153,15 @@
 
 # asyncio.run(mainfuc())
 
-import threading
-import time
+# import threading
+# import time
+# from concurrent.futures import ThreadPoolExecutor
 
-def func(sec):
-    print(f"Sleeping for {sec}")
-    time.sleep(sec)
+# def func(sec):
+#     print(f"Sleeping for {sec}")
+#     time.sleep(sec)
 
-time1 = time.perf_counter()
+# time1 = time.perf_counter()
 
 #Normal Execution 
 # func(4)  
@@ -184,3 +185,14 @@ time1 = time.perf_counter()
 
 # print(time2 - time1)
     
+
+# def poolingDemo():
+#     with ThreadPoolExecutor() as executor:
+#         future1 = executor.submit(func, 3)
+#         print(future1.result())
+#         future2 = executor.submit(func, 4)
+#         print(future2.result())
+#         future3 = executor.submit(func, 2)
+#         print(future3.result())
+
+# poolingDemo()
